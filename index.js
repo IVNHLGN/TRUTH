@@ -1,4 +1,4 @@
-/*Downloaded from https://www.codeseek.co/soulwire/text-scramble-effect-mErPAK */
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -93,16 +93,19 @@ var phrases = ['DO YOU KNOW WHO YOU ARE?',
                'face the facts', 
                'just as I did', 
                'that they control us', 
-               'For 5781 years', 
-               'and you have been ruled', 
-               'by them', 'You dont have to believe me',
+               'for 5781 years',
+               'You dont have to believe me', 'I dont need that',
                'It is only necessary', 'to remember what',
                'you have been', 'forced to forget', 
+               'THINK ABOUT THAT',
                'To learn who rules over you', 
                'simply find out who you are', 
-               'not allowed to criticize', 
+               'not allowed to criticize',
                'become human at last', 'and get rid',
-               'from slavery', 'I AM', 'IVNHLGN'];
+               'of slavery', 
+               'Take the red pill', 'and I will show', 
+               'you how deep',
+               'the rabbit hole goes', 'I AM', 'IVNHLGN'];
 
 var el = document.querySelector('.text');
 var fx = new TextScramble(el);
